@@ -72,6 +72,10 @@ var statement = "My name is " + yourName + ", and I am taking a class at The Iro
 // ===============================
 // ==== BUTTONS ==================
 
-document.querySelector("#age").addEventListener( 'click', function(){
+document.getElementById( 'age' ).addEventListener( 'click', function(){
   console.log( age );
+}, false );
+
+document.getElementById( 'statement' ).addEventListener( 'click', function(){
+  console.log( statement );
 }, false );

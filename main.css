@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size:120px;
+  font-size:60px;
 }
 
 
@@ -41,6 +41,7 @@ button {
   border-radius: 16px;
   margin: 0 auto;
   background-color: #444;
+  padding: 12px;
 }
 .button-container {
   background-color: #333;
@@ -59,16 +60,16 @@ button {
 }
 #age {
   color: #5DD8F0;
-  width: 20%;
-  height: 80px;
+  width: 30%;
+  height: 90px;
   border: 2px solid #fff;
   border-radius: 16px;
   background-color: #444;
   display: inline-block;
 }
 #statement {
-  width: 20%;
-  height: 80px;
+  width: 30%;
+  height: 90px;
   border: 2px solid #fff;
   border-radius: 16px;
   background-color: #444;
